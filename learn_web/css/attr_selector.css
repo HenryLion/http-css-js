@@ -1,0 +1,21 @@
+
+/* all class in li */
+li[class] {
+	font-size: 200%;
+}
+
+/* all class in li value equle "a" */
+
+
+li[class="a"] {
+	background-color: green;
+}
+
+
+li[class~="a"] {
+	color: red;
+}
+
+li[class*="A" i] {
+	font-weight: bold;
+}

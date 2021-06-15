@@ -1,0 +1,9 @@
+/* all p in article scope */
+body article p {
+	color: blue;
+}
+
+/* p in article scope direct */
+article > p {
+	background-color: yellow;
+}

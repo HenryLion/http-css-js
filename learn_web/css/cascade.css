@@ -1,0 +1,112 @@
+.main-heading {
+	color: red;
+}
+
+h1 {
+	color: blue;
+}
+
+body {
+	color: green;
+	width: 50%;
+}
+
+span {
+	color: black;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+
+.my-class-1 a{
+	color: inherit;
+}
+
+.my-class-2 a {
+	color: initial;
+}
+
+.my-class-3 a {
+	color: unset;
+}
+
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+        
+.fix-this {
+    all: initial;
+}
+
+#outer a {
+    background-color: red;
+}
+
+#outer #inner a {
+    background-color: blue;
+}
+
+#outer div ul li a {
+    color: yellow;
+}
+
+#outer div ul .nav a {
+    color: white;
+}
+
+div div li:nth-child(2) a:hover {
+    border: 10px solid black;
+}
+
+div li:nth-child(2) a:hover {
+    border: 10px dashed black;
+}
+
+div div .nav:nth-child(2) a:hover {
+    border: 10px double black;
+}
+
+a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}   
+
+p {
+	background-color: blue;
+	color: white;
+	padding: 5px;
+} 
+
+#winning {
+	background-color: red;
+	border: 1px solid black;
+}
+
+
+.better {
+	background-color: gray;
+	border: none !important;
+}
